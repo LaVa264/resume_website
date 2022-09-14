@@ -1,0 +1,37 @@
+
+/* tag selectors */
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 30%;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    color: blueviolet;    
+}
+
+h1 {
+    color: crimson;
+}
+
+
+/* class selectors */
+.name:hover {
+    color:lightgreen;
+}
+
+/* id selectors */ 
+
+#books {
+    color:lightgreen;
+}
