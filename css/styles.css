@@ -1,37 +1,50 @@
-
-/* tag selectors */
 body {
-    background-color: #EAF6F6;
-}
-
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 10px;
-    width: 30%;
-}
-
-img {
-    height: 200px;
-}
-
-p {
-    color: blueviolet;    
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    color: crimson;
+    color: #66BFBF;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
 }
 
-
-/* class selectors */
-.name:hover {
-    color:lightgreen;
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
-/* id selectors */ 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
 
-#books {
-    color:lightgreen;
+.top-container {
+    background-color: #CEEDC7;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: blue;
+}
+
+.bottom-container {
+    background-color: blue;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
 }
